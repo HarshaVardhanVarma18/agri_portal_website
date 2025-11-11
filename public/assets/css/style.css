@@ -1,0 +1,135 @@
+/* 🌿 Agri Portal Stylish Theme */
+
+:root {
+  --green: #2b7a0b;
+  --light-green: #4caf50;
+  --cream: #f7fff5;
+  --text: #333;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f7fff5, #e3fce0);
+  margin: 0;
+  color: var(--text);
+}
+
+/* Header */
+header {
+  background: var(--green);
+  color: white;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 2px 8px var(--shadow);
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* Buttons */
+.btn, button {
+  background: var(--light-green);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  margin: 6px;
+}
+
+.btn:hover, button:hover {
+  background: var(--green);
+  transform: scale(1.05);
+}
+
+/* Cards / Forms */
+.form-card, .container-box {
+  background: white;
+  padding: 25px;
+  margin: 40px auto;
+  max-width: 480px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow);
+  transition: 0.3s ease;
+}
+
+.form-card:hover, .container-box:hover {
+  transform: translateY(-3px);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: var(--green);
+  outline: none;
+  box-shadow: 0 0 5px var(--light-green);
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: 20px auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px var(--shadow);
+}
+
+th {
+  background: var(--green);
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f1fff1;
+}
+
+/* Dashboard animations */
+.dashboard {
+  text-align: center;
+  padding: 40px;
+  color: var(--green);
+}
+
+.greeting {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.weather {
+  font-size: 18px;
+  color: #555;
+  margin-top: 15px;
+}
+
+/* Footer */
+footer {
+  background: var(--green);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}
