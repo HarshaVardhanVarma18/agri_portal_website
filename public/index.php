@@ -159,7 +159,7 @@ footer {
     Get soil insights, weather updates, and the best crop recommendations for your land.</p>
 
     <div class="actions">
-      <button onclick="window.location='register.php'">👨‍🌾 Register</button>
+      <button onclick="window.location='register.php'">👨‍🌾 Register here</button>
       <button onclick="window.location='login.php'">🌱 Login</button>
     </div>
   </div>
