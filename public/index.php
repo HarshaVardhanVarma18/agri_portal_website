@@ -155,7 +155,7 @@ footer {
 <section class="hero">
   <div class="hero-content">
     <h1>Empowering Farmers with Smart Agriculture</h1>
-    <p>Welcome to Agri Portal — your digital partner for smarter, greener, and more productive farming.  
+    <p>Welcome to Agri Portal for Farmers — your digital partner for smarter, greener, and more productive farming.  
     Get soil insights, weather updates, and the best crop recommendations for your land.</p>
 
     <div class="actions">
